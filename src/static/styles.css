@@ -84,6 +84,26 @@ section h3 {
   padding: 10px 15px;
 }
 
+.participants-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 0;
+  width: auto;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
+}
+
 .activity-card li {
   margin-bottom: 5px;
   font-weight: 500;
